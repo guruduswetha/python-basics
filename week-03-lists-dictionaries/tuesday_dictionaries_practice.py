@@ -20,3 +20,6 @@ if "Age" in Student_Details:
     print("Age is available")
 else:
     print("Age is not available") 
+
+for i in Student_Details:
+    print(i)
