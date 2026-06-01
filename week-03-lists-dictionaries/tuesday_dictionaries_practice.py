@@ -21,5 +21,6 @@ if "Age" in Student_Details:
 else:
     print("Age is not available") 
 
-for i in Student_Details:
-    print(i)
+for key, value in Student_Details.items():
+    print(f"{key}: {value}")
+    
