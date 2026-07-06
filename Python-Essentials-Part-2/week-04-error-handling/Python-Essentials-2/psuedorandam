@@ -1,0 +1,7 @@
+import random
+random.seed(10) ##A seed is the starting value for the random number generator. 
+##When you use the same seed, Python gives the same sequence every time.
+##That means this is predictable, not truly random##
+print(random.randint(1, 100))
+print(random.randint(1, 100))
+print(random.randint(1, 100))

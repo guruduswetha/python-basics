@@ -1,0 +1,11 @@
+from random import choice, sample
+
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print(choice(my_list))
+print(sample(my_list, 5))
+print(sample(my_list, 10))
+
+#So sample() is better for lottery-style programs. #The selected values do not repeat.
+#choice() selects one random element from a sequence.
+#A sequence can be a list, tuple, string, or range.

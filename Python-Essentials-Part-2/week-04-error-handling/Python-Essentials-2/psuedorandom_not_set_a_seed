@@ -1,0 +1,6 @@
+import random
+print(random.randint(1, 100))
+##As we have not set a seed, Python automatically sets the seed
+# when the random module is imported.
+#It usually uses system information like current time or operating system randomness, 
+# so each program run may start differently.That is why the output changes each time.##

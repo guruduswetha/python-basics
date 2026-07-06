@@ -1,0 +1,6 @@
+import random
+
+random.seed(10) ##A seed controls the sequence of random numbers.
+##When you set the same seed, Python produces the same sequence again and again.
+print(random.random())
+print(random.random())
